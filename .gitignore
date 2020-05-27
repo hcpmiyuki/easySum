@@ -1,3 +1,7 @@
-setup.py
 easySum/__pycache__/
 easySum/modules/__pycache__/
+easySum.egg-info/
+dist/
+build/
+pypi_env/
+.DS_Store
