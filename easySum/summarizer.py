@@ -9,8 +9,8 @@ from sumy.summarizers.luhn import LuhnSummarizer
 from sumy.summarizers.reduction import ReductionSummarizer
 from sumy.summarizers.sum_basic import SumBasicSummarizer
 
-from .modules.preprocessing import preprocessing
-from .modules.corpus import Corpus
+from easySum.preprocessing import preprocessing
+from easySum.corpus import Corpus
 
 
 algorithm_dic = {"lex": LexRankSummarizer(), "tex": TextRankSummarizer(), "lsa": LsaSummarizer(),\
