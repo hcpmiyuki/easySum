@@ -16,7 +16,7 @@ with open('README.md', encoding='utf-8') as f:
 
 setup(
     name=package_name,
-    version='0.1.8',
+    version='0.2.5',
     description='You can easily summarize the text.',
     long_description=long_description,
     long_description_content_type='text/markdown',
